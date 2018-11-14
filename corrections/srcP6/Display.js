@@ -41,9 +41,9 @@ class Display extends React.Component {
 
     render() {
         return (<div className='displayCenter'>
-                <h1>{this.props.display.description}</h1>
+                <h3>{this.props.display.description}</h3>
                 <div className='behindDisplayImage' style={backDisplay}><img className="displayImage" src={images[this.props.display.id]} style={{left:this.state.move , transform: this.state.rotation}}/></div>
-                <h3>{this.props.display.personnage}</h3>
+                <h2>{this.props.display.personnage}</h2>
             </div>
 
         );
