@@ -70,7 +70,7 @@ Définissez un composant Display dans un nouveau fichier et importez le.
 Remplacez la balise ```<div className='displayCenter'/>``` par l'appel du composant et ajoutez le className 'displayCenter' dans la div de retour de la méthode render.
 
 #### Question n°2 :
-Ajoutez un state "carteSelectionnee" (initialisé à 1) à App puis dans le composant Display afficher la "description" (dans une balise h1) de la carteSelectionnee.
+Ajoutez un state "carteSelectionnee" (initialisé à 1) à App puis dans le composant Display afficher la "description" (dans une balise h3) de la carteSelectionnee.
 
 #### Question n°3 :
 Les images de chaque cartes sont stockées dans un dossier cardImages.
@@ -93,7 +93,7 @@ Ajoutez une balise img  dans le rendu du composant Display (className="displayIm
 
 
 #### Question n°4 :
-Affichez le nom du "personnage" (dans une balise h3) de la carteSelectionnee.
+Affichez le nom du "personnage" (dans une balise h2) de la carteSelectionnee.
 
 ### Partie 4 : Le composant Choice (callback & setState)
 
