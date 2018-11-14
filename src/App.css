@@ -1,0 +1,128 @@
+body {
+    text-align: center;
+    background-color: #221f28;
+    font-family: "Lucida Console", Courier, monospace;
+}
+.App{
+    background: no-repeat center;
+    background-size:contain;
+    display: flex;
+    justify-content: space-between;
+}
+.displayColumn{
+    width:35vw;
+}
+.colorRow {
+    background: #331a00;
+    color: #ffffe6;
+    display: flex;
+}
+.footerRow{
+    height:5vh;
+}
+.footerColumn{
+    flex: 1;
+    display: block;
+    font-size: 1em;
+    margin: 1.33em 0;
+    font-weight: bold;
+}
+
+/**/
+.choiceColumn {
+    min-height: 100%;
+    z-index: 2;
+    flex:1;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+}
+
+
+/**/
+.displayCenter{
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    background-color:#bda867;
+}
+
+.behindDisplayImage{
+    position:relative;
+    border-radius: 50px;
+    border:1px solid #000;
+    margin: auto;
+}
+
+.displayImage {
+    position:relative;
+    display: flex;
+    border-radius: 50px;
+    vertical-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 30vw;
+    height: auto;
+    left:0;
+    transition: 0.25s;
+}
+
+
+
+/**/
+.powerIcone {
+    display: flex;
+    height:10vh;
+    width:5vw;
+}
+.fillFront {
+    height:10vh;
+    background-color: #f8f5bf;
+    margin: 0 auto auto;
+    transition: 0.2s;
+}
+.fillBack{
+    height:5vh;
+    background-color: #8c7a4f;
+    transition: 0.8s;
+}
+.powersRow{
+    height:15vh;
+}
+.powerColumn {
+    display: inline-grid;
+    flex: 1;
+}
+.nextValueCircle {
+    background-color: #f8f5bf;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: center;
+    transition:0.3s;
+    height:0px;
+    width:0px;
+}
+.nextStatHeader{
+    height:1vh;
+    display: inline-block;
+}
+
+
+/**/
+.textChoice{
+    min-height:100px;
+    max-width:20vw;
+    background-color: aliceblue;
+    opacity:0.9;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 1.5em;
+    padding:1vw;
+    font-weight: bold;
+    border:1px solid #000;
+}

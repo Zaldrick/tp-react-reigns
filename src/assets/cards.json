@@ -1,0 +1,814 @@
+{
+  "0": {
+    "display": {
+      "id": 0,
+      "description": "Game Over ...",
+      "personnage":""
+    },
+    "left": {
+      "slide":-30,
+      "description": "Redoubler ?",
+      "results": {
+        "energie": 0,
+        "resultats": 0,
+        "popularite": 0,
+        "bonheur": 0
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Redoubler ?",
+      "results": {
+        "energie": 0,
+        "resultats": 0,
+        "popularite": 0,
+        "bonheur": 0
+      }
+    }
+  },
+  "1": {
+    "display": {
+      "id": 1,
+      "description": "Il est l'heure d'aller en cours.",
+      "personnage":"Votre Réveil"
+    },
+    "left": {
+      "slide":-30,
+      "description": "Encore 5 min ...",
+      "results": {
+        "energie": 15,
+        "resultats": -15,
+        "popularite": 0,
+        "bonheur": 0
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Le Diplôme n'attend pas !",
+      "results": {
+        "energie": -10,
+        "resultats": 15,
+        "popularite": 0,
+        "bonheur": 0
+      }
+    }
+  },
+  "2": {
+    "display": {
+      "id": 2,
+      "description": "Cours en amphi sur l'état de l'art ...",
+      "personnage":""
+    },
+    "left": {
+      "slide":-30,
+      "description": "Vous vous persuadez d'avoir mal lu l'emploi du temps pour ne pas y aller.",
+      "results": {
+        "energie": 15,
+        "resultats": -10,
+        "popularite": 0,
+        "bonheur": 0
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "08h00 ca pique mais vous assumez.",
+      "results": {
+        "energie": -10,
+        "resultats": 10,
+        "popularite": 0,
+        "bonheur": 0
+      }
+    }
+  },
+  "3": {
+    "display": {
+      "id": 3,
+      "description": "Arrivé en amphi, vous devez choisir une place ...",
+      "personnage":""
+    },
+    "left": {
+      "slide":-30,
+      "description": "Ninja au fond de la salle.",
+      "results": {
+        "energie": -20,
+        "resultats": 0,
+        "popularite": 0,
+        "bonheur": 10
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Prendre ce qu'il reste.",
+      "results": {
+        "energie": 10,
+        "resultats": 0,
+        "popularite": 0,
+        "bonheur": -20
+      }
+    }
+  },
+  "4": {
+    "display": {
+      "id": 4,
+      "description": "Cours de Startup, vous adoptez une attitude plutot ...",
+      "personnage":"Joséphine"
+    },
+    "left": {
+      "slide":-30,
+      "description": "Calme : laisser les autres mener la barque.",
+      "results": {
+        "energie": 10,
+        "resultats": -5,
+        "popularite": -15,
+        "bonheur": 0
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Investi : Vos idées vivront !",
+      "results": {
+        "energie": -15,
+        "resultats": 5,
+        "popularite": 10,
+        "bonheur": 0
+      }
+    }
+  },
+  "5": {
+    "display": {
+      "id": 5,
+      "description": "Merde, on passe en IFI dans une semaine ...",
+      "personnage":"Binome d'IFI"
+    },
+    "left": {
+      "slide":-30,
+      "description": "Si on arrête de dormir, on finira de recoder DOOM tranquille.",
+      "results": {
+        "energie": -20,
+        "resultats": 10,
+        "popularite": 20,
+        "bonheur": 0
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "J'ai trouvé un dépôt git, t'inquiète, y'a plus qu'à cloner !",
+      "results": {
+        "energie": 15,
+        "resultats": 5,
+        "popularite": -15,
+        "bonheur": 0
+      }
+    }
+  },
+  "6": {
+    "display": {
+      "id": 6,
+      "description": "Il parait qu'il y a une promo sur les petits pains chez l'épicier ...",
+      "personnage":"Voisin"
+    },
+    "left": {
+      "slide":-30,
+      "description": "Aller vérifier et ramener pour la classe.",
+      "results": {
+        "energie": -5,
+        "resultats": 0,
+        "popularite": 10,
+        "bonheur": 0
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Pas de temps ni d'argent à perdre.",
+      "results": {
+        "energie": 10,
+        "resultats": 0,
+        "popularite": -10,
+        "bonheur": 0
+      }
+    }
+  },
+  "7": {
+    "display": {
+      "id": 7,
+      "description": "Une envie soudaine de vous faire un thé arrive, mais il n'y a plus d'eau dans la bouilloire ...",
+      "personnage":""
+    },
+    "left": {
+      "slide":-30,
+      "description": "Aller remplir la bouilloire.",
+      "results": {
+        "energie": -5,
+        "resultats": 0,
+        "popularite": 10,
+        "bonheur": 5
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Attendre que quelqu'un le fasse.",
+      "results": {
+        "energie": 0,
+        "resultats": 0,
+        "popularite": 0,
+        "bonheur": -10
+      }
+    }
+  },
+  "8": {
+    "display": {
+      "id": 8,
+      "description": "Pour le cours d'IIR, c'est quoi ton plan ?",
+      "personnage":"Binome d'IIR"
+    },
+    "left": {
+      "slide":-30,
+      "description": "Un Theme simple. Je suis informaticien pas Bernard Henry Levy.",
+      "results": {
+        "energie": 10,
+        "resultats": 0,
+        "popularite": 0,
+        "bonheur": -10
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Un Theme intéressant. Autant apprendre des choses.",
+      "results": {
+        "energie": -10,
+        "resultats": 0,
+        "popularite": 0,
+        "bonheur": 10
+      }
+    }
+  },
+  "9": {
+    "display": {
+      "id": 9,
+      "description": "Au détour d'un couloir, vous apercevez ce magnifique jeune homme.",
+      "personnage":"Clément"
+    },
+    "left": {
+      "slide":-30,
+      "description": "Vous fuyez de peur qu'il vous demande comment avance IFI.",
+      "results": {
+        "energie": 0,
+        "resultats": -10,
+        "popularite": -10,
+        "bonheur": 0
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Lui payer un café.",
+      "results": {
+        "energie": 0,
+        "resultats": 0,
+        "popularite": 10,
+        "bonheur": 10
+      }
+    }
+  },
+  "10": {
+    "display": {
+      "id": 10,
+      "description": "Tu penses qu'on devrait coder le panier comment ?",
+      "personnage":"Bînome de CLE"
+    },
+    "left": {
+      "slide":-30,
+      "description": "En JEE.",
+      "results": {
+        "energie": -10,
+        "resultats": 10,
+        "popularite": 0,
+        "bonheur": 0
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Je connais un framework vachement sympa.",
+      "results": {
+        "energie": -15,
+        "resultats": 10,
+        "popularite": 0,
+        "bonheur": 0
+      }
+    }
+  },
+  "11": {
+    "display": {
+      "id": 11,
+      "description": "T'as révisé pour le contrôle en CAL demain ?",
+      "personnage":"Camarade de classe"
+    },
+    "left": {
+      "slide":-30,
+      "description": "A quoi bon ? J'ai l'agile dans le sang !",
+      "results": {
+        "energie": 10,
+        "resultats": -10,
+        "popularite": 0,
+        "bonheur": 0
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Je relierai la diapo demain midi. Ca suffira.",
+      "results": {
+        "energie": -10,
+        "resultats": 10,
+        "popularite": 0,
+        "bonheur": 0
+      }
+    }
+  },
+  "12": {
+    "display": {
+      "id": 12,
+      "description": "Soutenance de Startup. le Jury n'a pas l'air convaincu ...",
+      "personnage":"Joséphine"
+    },
+    "left": {
+      "slide":-30,
+      "description": "Accepter leurs remarques et ne rien dire.",
+      "results": {
+        "energie": 0,
+        "resultats": -10,
+        "popularite": 0,
+        "bonheur": 0
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Tenter la langue de bois.",
+      "results": {
+        "energie": 0,
+        "resultats": 5,
+        "popularite": -10,
+        "bonheur": 0
+      }
+    }
+  },
+  "13": {
+    "display": {
+      "id": 13,
+      "description": "Aujourd'hui pour ce cours IFI nous allons vous présenter notre framework ! Il a été créé par ...",
+      "personnage":"Camarade de classe"
+    },
+    "left": {
+      "slide":-30,
+      "description": "Ecouter attentivement",
+      "results": {
+        "energie": -8,
+        "resultats": 0,
+        "popularite": 8,
+        "bonheur": 0
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Bosser sur autre chose",
+      "results": {
+        "energie": 0,
+        "resultats": 15,
+        "popularite": -15,
+        "bonheur": 0
+      }
+    }
+  },
+  "14": {
+    "display": {
+      "id": 14,
+      "description": "TPA ce matin. Vous en profitez pour :",
+      "personnage":""
+    },
+    "left": {
+      "slide":-30,
+      "description": "Regarder une série.",
+      "results": {
+        "energie": 10,
+        "resultats": -15,
+        "popularite": 0,
+        "bonheur": 10
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Avancer sur le rendu de CLE.",
+      "results": {
+        "energie": -15,
+        "resultats": 15,
+        "popularite": 0,
+        "bonheur": 0
+      }
+    }
+  },
+  "15": {
+    "display": {
+      "id": 15,
+      "description": "Vous avez prévu d'inviter quelques amis chez vous, mais le Rendu pour demain matin n'est pas terminé.",
+      "personnage":""
+    },
+    "left": {
+      "slide":-30,
+      "description": "Maintenir la soirée.",
+      "results": {
+        "energie": 0,
+        "resultats": -10,
+        "popularite": 0,
+        "bonheur": 15
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Annuler la soirée.",
+      "results": {
+        "energie": 0,
+        "resultats": 15,
+        "popularite": 0,
+        "bonheur": -10
+      }
+    }
+  },
+  "16": {
+    "display": {
+      "id": 16,
+      "description": "Tu viens Kebab avec nous ce midi ?",
+      "personnage":"Camarades de classe"
+    },
+    "left": {
+      "slide":-30,
+      "description": "Non",
+      "results": {
+        "energie": 0,
+        "resultats": 0,
+        "popularite": -15,
+        "bonheur": 0
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Oui",
+      "results": {
+        "energie": 0,
+        "resultats": 0,
+        "popularite": 15,
+        "bonheur": 0
+      }
+    }
+  },
+  "17": {
+    "display": {
+      "id": 17,
+      "description": "Aujourd'hui c'est la journée RIC (Recherche, innovation et créativité). Tu viens souffrir avec nous ?",
+      "personnage":"Camarade de Classe"
+    },
+    "left": {
+      "slide":-30,
+      "description": "Oui",
+      "results": {
+        "energie": -10,
+        "resultats": 5,
+        "popularite": 10,
+        "bonheur": 0
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Non",
+      "results": {
+        "energie": 5,
+        "resultats": -5,
+        "popularite": -10,
+        "bonheur": 0
+      }
+    }
+  },
+  "18": {
+    "display": {
+      "id": 18,
+      "description": "Je n'ai pas reçu votre travail pour le TP de CLE.",
+      "personnage":"Giuseppe Lipari "
+    },
+    "left": {
+      "slide":-30,
+      "description": "Le quoi ?",
+      "results": {
+        "energie": 0,
+        "resultats": -10,
+        "popularite": -10,
+        "bonheur": 0
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Je vous le renvoi ce soir avant minuit",
+      "results": {
+        "energie": -10,
+        "resultats": 10,
+        "popularite": 0,
+        "bonheur": 0
+      }
+    }
+  },
+  "19": {
+    "display": {
+      "id": 19,
+      "description": "On se donne Rdv après les cours pour avancer sur le projet ?",
+      "personnage":"Groupe de Startup"
+    },
+    "left": {
+      "slide":-30,
+      "description": "Oui",
+      "results": {
+        "energie": 15,
+        "resultats": 10,
+        "popularite": 15,
+        "bonheur": -10
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "J'ai aquaponey désolé",
+      "results": {
+        "energie": 15,
+        "resultats": -10,
+        "popularite": 15,
+        "bonheur": 10
+      }
+    }
+  },
+  "20": {
+    "display": {
+      "id": 20,
+      "description": "Je comprends rien au TP. Tu peux m'aider ?",
+      "personnage":"Camarade de Classe"
+    },
+    "left": {
+      "slide":-30,
+      "description": "Laisse moi t'expliquer.",
+      "results": {
+        "energie": -15,
+        "resultats": 5,
+        "popularite": 15,
+        "bonheur": 0
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Pas le temps désolé",
+      "results": {
+        "energie": 15,
+        "resultats": 0,
+        "popularite": -15,
+        "bonheur": 0
+      }
+    }
+  },
+  "90": {
+    "display": {
+      "id": 90,
+      "description": "Cette énième bonne nuit de sommeil a eu raison de vous. Vous ne vous êtes pas réveillé à temps pour votre soutenance. Le prof a décidé de vous mettre zéro, ce qui vous élimine d'office ...",
+      "personnage":""
+    },
+    "left": {
+      "slide":-30,
+      "description": "Mais ...mon réveil ...?",
+      "results": {
+        "energie": -100,
+        "resultats": -100,
+        "popularite": -100,
+        "bonheur": -100
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Mais ...mon réveil ...?",
+      "results": {
+        "energie": -100,
+        "resultats": -100,
+        "popularite": -100,
+        "bonheur": -100
+      }
+    }
+  },
+  "91": {
+    "display": {
+      "id": 91,
+      "description": "C'était la nuit blanche de trop. Votre corps ne supporte plus la fatigue ... Vous vous endormez au volant en allant à la Fac. Votre covalescence durera 6mois",
+      "personnage":""
+    },
+    "left": {
+      "slide":-30,
+      "description": "Bison Futé ?",
+      "results": {
+        "energie": -100,
+        "resultats": -100,
+        "popularite": -100,
+        "bonheur": -100
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Bison Futé ?",
+      "results": {
+        "energie": -100,
+        "resultats": -100,
+        "popularite": -100,
+        "bonheur": -100
+      }
+    }
+  },
+  "92": {
+    "display": {
+      "id": 92,
+      "description": "Vos trop bons résultats ne semblent pas être apprécié par tout le monde. Serait-ce un elève de la classe qui vous a poussé dans les escaliers ?  La seule chose dont vous être sur, c'est que ces quelques mois d'hôpital ne vous permettront pas de finir l'année scolaire.",
+      "personnage":""
+    },
+    "left": {
+      "slide":-30,
+      "description": "Qui a osé ?!",
+      "results": {
+        "energie": -100,
+        "resultats": -100,
+        "popularite": -100,
+        "bonheur": -100
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Qui a osé ?!",
+      "results": {
+        "energie": -100,
+        "resultats": -100,
+        "popularite": -100,
+        "bonheur": -100
+      }
+    }
+  },
+  "93": {
+    "display": {
+      "id": 93,
+      "description": "C'était le dépôt git de trop ! Vos multiples plagiats ne sont pas passé inapercu ! Il est peut-être temps de changer de voie ? Le C.A.P. Kebab de Roubaix vous accueillera à bras ouverts.",
+      "personnage":"Giuseppe Lipari"
+    },
+    "left": {
+      "slide":-30,
+      "description": "Mais j'avais changé le nom des variables !",
+      "results": {
+        "energie": -100,
+        "resultats": -100,
+        "popularite": -100,
+        "bonheur": -100
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Mais j'avais changé le nom des variables !",
+      "results": {
+        "energie": -100,
+        "resultats": -100,
+        "popularite": -100,
+        "bonheur": -100
+      }
+    }
+  },
+  "94": {
+    "display": {
+      "id": 94,
+      "description": "Vous êtes adulé tel un Dieu. Lors d'une soirée organisée par la Fac en votre honneur, vous buvez le verre de trop. Un coma ethylique dont les lésions musculaires necessiteront plusieurs semaines de repos et de faire une croix sur votre année.",
+      "personnage":""
+    },
+    "left": {
+      "slide":-30,
+      "description": "J'étais pourtant aimé de tous !",
+      "results": {
+        "energie": -100,
+        "resultats": -100,
+        "popularite": -100,
+        "bonheur": -100
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "J'étais pourtant aimé de tous !",
+      "results": {
+        "energie": -100,
+        "resultats": -100,
+        "popularite": -100,
+        "bonheur": -100
+      }
+    }
+  },
+  "95": {
+    "display": {
+      "id": 95,
+      "description": "Personne ne vous aime. Meme les profs ont fini par oublier votre existence. Vous etiez vraiment inscrit en M2 ? Vous étiez vraiment là au debut de l'année ? Une chose est sur : vous n'etes pas dans la liste des diplomés.",
+      "personnage":""
+    },
+    "left": {
+      "slide":-30,
+      "description": "Je suis là ! Regardez moi !",
+      "results": {
+        "energie": -100,
+        "resultats": -100,
+        "popularite": -100,
+        "bonheur": -100
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Je suis là ! Regardez moi !",
+      "results": {
+        "energie": -100,
+        "resultats": -100,
+        "popularite": -100,
+        "bonheur": -100
+      }
+    }
+  },
+  "96": {
+    "display": {
+      "id": 96,
+      "description": "Vous nagez dans un bonheur parfait. Tellement parfait que vous finissez par vous dire que le M2 n'a plus d'interet pour vous. Vous n'avez pas besoin de ca pour être heureux. Vous décidez de partir en voyage à la recherche de vous-même pendant plusieurs mois.",
+      "personnage":""
+    },
+    "left": {
+      "slide":-30,
+      "description": "Il est libre Max !",
+      "results": {
+        "energie": -100,
+        "resultats": -100,
+        "popularite": -100,
+        "bonheur": -100
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Il est libre Max !",
+      "results": {
+        "energie": -100,
+        "resultats": -100,
+        "popularite": -100,
+        "bonheur": -100
+      }
+    }
+  },
+  "97": {
+    "display": {
+      "id": 97,
+      "description": "La dépression a raison de vous. Vous finissez par vous enfermer chez vous à regarder des series Netflix. Vous laissez tomber les cours et toute votre vie professionnel ",
+      "personnage":""
+    },
+    "left": {
+      "slide":-30,
+      "description": "...",
+      "results": {
+        "energie": -100,
+        "resultats": -100,
+        "popularite": -100,
+        "bonheur": -100
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "...",
+      "results": {
+        "energie": -100,
+        "resultats": -100,
+        "popularite": -100,
+        "bonheur": -100
+      }
+    }
+  }
+  ,
+  "99": {
+    "display": {
+      "id": 99,
+      "description": "Félicitation, vous avez réussi à venir à bout de ce TP et de votre Master2 !",
+      "personnage":"Clément"
+    },
+    "left": {
+      "slide":-30,
+      "description": "Avouer avoir triché",
+      "results": {
+        "energie": -100,
+        "resultats": -100,
+        "popularite": -100,
+        "bonheur": -100
+      }
+    },
+    "right": {
+      "slide":30,
+      "description": "Avouer avoir triché",
+      "results": {
+        "energie": -100,
+        "resultats": -100,
+        "popularite": -100,
+        "bonheur": -100
+      }
+    }
+  }
+
+}
