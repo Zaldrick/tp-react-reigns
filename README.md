@@ -14,7 +14,6 @@ L'idée de ce TP est de vous amener a reproduire ce système grâce aux différe
 React. La version 1.0. se concentrera sur l'aspect fonctionnel de l'application. Le jeu sera jouable dé cette partie terminée. La version 2.0 est facultative et n'ajoute que des petites subtilités visuelles.
 
 Un paquet de cartes vous est fourni dans le fichiers cards.json de manière à pouvoir tester votre jeu à la fin :).   
-Nous tenons à remercier Valentin Vamour pour ses dessins, qui après coloration numérique, sont merveilleux.
 
 #### Pré-requis :
 Lancez un ```$npm install -g create-react-app```.   
